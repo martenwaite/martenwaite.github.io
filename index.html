@@ -9,6 +9,12 @@
 <h1>
 Marten Waite
 </h1>
+  
+  <dl>
+{% for post in site.posts %}
+	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+</dl>
 
 </body>
 </html>
