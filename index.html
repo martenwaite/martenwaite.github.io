@@ -9,12 +9,14 @@
 <h1>
 Marten Waite
 </h1>
-  
-  <dl>
+<ul style="
+    list-style: none;
+    padding-left: 0px;
+">
 {% for post in site.posts %}
 	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
-</dl>
+</ul>
 
 </body>
 </html>
