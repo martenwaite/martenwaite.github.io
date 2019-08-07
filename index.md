@@ -18,7 +18,7 @@ Marten Waite
 	  {% endfor %}
 </ul>
 	
-<p>Contact Waite at martenwaite@protonmail.ch</p>
+<p>Contact Waite at <strong>martenwaite@protonmail.ch</strong></p>
 
 </body>
 </html>
