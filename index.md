@@ -17,6 +17,8 @@ Marten Waite
 	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 </ul>
+	
+<p>Contact Waite at martenwaite@protonmail.ch</p>
 
 </body>
 </html>
